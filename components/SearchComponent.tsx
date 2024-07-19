@@ -4,7 +4,7 @@ const SearchComponent: React.FC = () => {
   return (
     <>
       <input
-        className="border shadow-lg rounded-full px-4 py-1 w-full"
+        className="border shadow-lg text-orange-300 font-bold rounded-full px-4 py-1 w-full focus:outline-none focus:ring focus:ring-orange-500"
         placeholder="Search..."
       />
     </>

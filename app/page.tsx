@@ -1,10 +1,12 @@
-import { Layout, Carousel } from "@/components";
+"use client";
+
+import { Layout, Carousel, Content } from "@/components";
 
 export default function Home() {
   return (
     <Layout>
-      <>Hello World</>
-      {/* <Carousel /> */}
+      <Carousel />
+      <Content />
     </Layout>
   );
 }
